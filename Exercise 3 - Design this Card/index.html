@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 50px 100px;
+            font-family: Arial, serif;
+            background-color: #f8f9ff;
+        }
+
+        .card-container {
+            background-color: #ffffff;
+            border: 1px solid rgba(172, 172, 172, 0.5);
+            width: 300px;
+            border-radius: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        .card-container > img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            padding: 0;
+            border-radius: 12px;
+        }
+
+        .topic-container {
+            padding: 10px 0px;
+            cursor: pointer;
+        }
+
+        .topic-container > p {
+            padding: 3px 10px;
+            border: 1px solid rgba(192, 192, 192, 0.4);
+            font-size: 13px;
+            color: rgba(141, 141, 141, 0.6);
+            display: inline-block;
+            border-radius: 50px;
+            font-weight: 550;
+        }
+
+        .topic-container > p:hover {
+            border: 1px solid rgba(192, 192, 192, 0.6);
+            color: rgba(141, 141, 141, 0.8);
+        }
+
+        .info-container {
+            padding: 5px;
+        }
+
+        .info-container > h1 {
+            font-size: 25px;
+            font-weight: 550;
+            color: #353535;
+        }
+
+        .info-container > p {
+            font-size: 16px;
+            color: rgba(141, 141, 141, 0.8);
+            padding: 14px 0;
+            font-family: 'Futura PT', sans-serif;
+            line-height: 20px;
+            height: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .read-more-btn {
+            padding: 8px 16px;
+            background-color: #1473e6;
+            border-radius: 25px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .read-more-btn:hover {
+            background-color: #0d66d0;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-items: center;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="card-container">
+        <img src="https://source.unsplash.com/960x800?nature, lake" alt="nature image">
+        <div class="topic-container">
+            <p>Nature</p>
+            <p>Lake</p>
+        </div>
+        <div class="info-container">
+            <h1>Lake Nature Image</h1>
+            <p>
+                Nestled serenely between rolling hills and lush greenery, the lake is a tranquil expanse of water that
+                mirrors the ever-changing canvas of the sky above. Its pristine surface ripples gently in response to
+                the
+                whispering breeze, creating a ...
+            </p>
+            <button class="read-more-btn">
+                read more
+            </button>
+        </div>
+    </div>
+    <div class="card-container">
+        <img src="https://source.unsplash.com/960x800?nature, Desert" alt="nature image">
+        <div class="topic-container">
+            <p>Nature</p>
+            <p>Desert</p>
+        </div>
+        <div class="info-container">
+            <h1>Desert Nature Image</h1>
+            <p>
+                Nestled serenely between rolling hills and lush greenery, the lake is a tranquil expanse of water that
+                mirrors the ever-changing canvas of the sky above. Its pristine surface ripples gently in response to
+                the
+                whispering breeze, creating a ...
+            </p>
+            <button class="read-more-btn">
+                read more
+            </button>
+        </div>
+    </div>
+    <div class="card-container">
+        <img src="https://source.unsplash.com/960x800?nature, mountain" alt="nature image">
+        <div class="topic-container">
+            <p>Nature</p>
+            <p>mountain</p>
+        </div>
+        <div class="info-container">
+            <h1>Mountain Image</h1>
+            <p>
+                Nestled serenely between rolling hills and lush greenery, the lake is a tranquil expanse of water that
+                mirrors the ever-changing canvas of the sky above. Its pristine surface ripples gently in response to
+                the
+                whispering breeze, creating a ...
+            </p>
+            <button class="read-more-btn">
+                read more
+            </button>
+        </div>
+    </div>
+    <div class="card-container">
+        <img src="https://source.unsplash.com/960x800?nature, sea" alt="nature image">
+        <div class="topic-container">
+            <p>Nature</p>
+            <p>Sea</p>
+        </div>
+        <div class="info-container">
+            <h1>Sea Nature Image</h1>
+            <p>
+                Nestled serenely between rolling hills and lush greenery, the lake is a tranquil expanse of water that
+                mirrors the ever-changing canvas of the sky above. Its pristine surface ripples gently in response to
+                the
+                whispering breeze, creating a ...
+            </p>
+            <button class="read-more-btn">
+                read more
+            </button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
