@@ -69,17 +69,11 @@ p {
     .box-container {
         grid-template-columns: 1fr 1fr;
     }
-    body {
-        padding: 0 50px;
-    }
 }
 
 @media screen and (max-width: 599px) {
     .box-container {
         grid-template-columns: 1fr;
-    }
-    body {
-        padding: 0 50px;
     }
 }
 
