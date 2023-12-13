@@ -6,8 +6,15 @@
     text-decoration: none;
 }
 
+:root {
+    --high-color: #64ffda;
+    --selection: #233554;
+    --background-body: #0a192f;
+    --lang-color: #7d88a6;
+}
+
 .high-color {
-    color: #64ffda;
+    color: var(--high-color);
 }
 
 .high-color-hover {
@@ -16,20 +23,20 @@
 }
 
 .high-color-hover:hover {
-    color: #64ffda;
+    color: var(--high-color);
 }
 
 *::selection {
-    background-color: #233554;
+    background-color: var(--selection);
 }
 
 body {
-    background-color: #0A192F;
-    padding: 0 250px;
+    background-color: var(--background-body);
+    padding: 0 10vw;
 }
 
 p {
-    font-family: 'Futura PT', sans-serif;
+    font-family: "Futura PT", sans-serif;
 }
 
 .heading-text {
@@ -37,18 +44,43 @@ p {
     font-family: Calibre, sans-serif;
     font-size: 32px;
     font-weight: 600;
-    color: #A8B3D2;
+    color: #a8b3d2;
     text-align: center;
 }
-
 
 .sub-heading {
     color: #64ffda;
     margin-top: 15px;
-    font-family: 'SF Mono', sans-serif;
+    font-family: "SF Mono", sans-serif;
     font-weight: 400;
     font-size: 14px;
     text-align: center;
+}
+
+/* container */
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .box-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    body {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+    body {
+        padding: 0 50px;
+    }
 }
 
 .folder-icon {
@@ -62,7 +94,6 @@ p {
 }
 
 .box {
-    /*width: 300px;*/
     height: auto;
     padding: 32px;
     background-color: #112240;
@@ -108,21 +139,16 @@ p {
 }
 
 .lang-text h3 {
-    color: #7D88A6;
+    color: var(--lang-color);
     font-size: 12px;
-    font-family: 'SF Mono', sans-serif;
+    font-family: "SF Mono", sans-serif;
     font-weight: 400;
     display: inline-block;
     margin-right: 10px;
 }
 
 .main-text {
-    height: 180px;
+    height: auto;
     overflow-y: hidden;
-}
-
-.box-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    margin-bottom: 50px;
 }
