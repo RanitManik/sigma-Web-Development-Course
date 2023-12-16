@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: var(--background-body);
+}
+
+.red-btn {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.red-btn:hover {
+    background-color: var(--btn-hover-color);
+    transition: background-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+}

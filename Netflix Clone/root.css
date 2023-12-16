@@ -1,0 +1,8 @@
+:root {
+    --primary-color: rgb(229, 9, 20);
+    --btn-color: rgb(229, 9, 20);
+    --btn-hover-color: rgb(176, 3, 12);
+    --background-body: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255);
+    --white: rgb(255, 255, 255);
+}

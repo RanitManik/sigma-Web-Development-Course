@@ -1,0 +1,89 @@
+.first-section {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-inline: 1.5rem;
+    padding-top: 1.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: inline-block;
+}
+
+.netflix-logo-svg {
+    fill: var(--primary-color);
+    height: 2.5rem;
+}
+
+.lang-text-svg {
+    fill: var(--text-color);
+}
+
+.lang-select {
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+#lang {
+    padding: 0.3rem 2.2rem;
+    appearance: none;
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#lang option[value="option-1"],
+#lang option[value="option-2"] {
+    color: black;
+}
+
+.lang-svg {
+    color: var(--white);
+    fill: var(--white);
+    position: absolute;
+    pointer-events: none;
+}
+
+.multilingual-svg {
+    left: 0.8rem;
+    top: 0.5rem;
+}
+
+.caret-down-svg {
+    right: 0.8rem;
+    top: 0.5rem;
+}
+
+.right-nav {
+    display: flex;
+    padding: 0.2rem;
+}
+
+.sign-in {
+    height: 100%;
+    padding-inline: 1.2rem;
+    margin-left: 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
