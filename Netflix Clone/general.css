@@ -49,4 +49,15 @@ h5 {
     line-height: 1.5rem;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+select option {
+    color: black;
+}
+
 
