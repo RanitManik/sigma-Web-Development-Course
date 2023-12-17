@@ -9,12 +9,15 @@
 
 body {
     background-color: var(--background-body);
+    font-family: Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
+/* style for red button */
 .red-btn {
     background-color: var(--btn-color);
     color: var(--text-color);
     cursor: pointer;
+    border-radius: 0.25rem;
 }
 
 .red-btn:hover {
@@ -23,3 +26,27 @@ body {
     transition-duration: 0.15s;
     transition-timing-function: ease-out;
 }
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 150%;
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary-color);
+    line-height: 1.5rem;
+}
+
+

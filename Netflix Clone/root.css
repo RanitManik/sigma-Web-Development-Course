@@ -4,5 +4,7 @@
     --btn-hover-color: rgb(176, 3, 12);
     --background-body: rgb(0, 0, 0);
     --text-color: rgb(255, 255, 255);
+    --text-secondary-color: rgb(255, 255, 255, 0.7);
     --white: rgb(255, 255, 255);
+    --border-color: rgba(128, 128, 128, 0.7);
 }
