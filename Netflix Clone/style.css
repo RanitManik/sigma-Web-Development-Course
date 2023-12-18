@@ -151,6 +151,8 @@ header div {
     position: relative;
     height: 100vh;
     width: auto;
+    padding-inline: 9.25rem;
+    padding-top: 4rem;
 }
 
 .first-section:after {
@@ -164,8 +166,7 @@ header div {
 
 /* trending section */
 .trending-option {
-    padding-inline: 9.25rem;
-    padding-top: 4rem;
+
 }
 
 #trending-region, #trending-movies {
@@ -206,7 +207,48 @@ header div {
     left: 7rem;
     pointer-events: none;
 }
+
 .trending-option, .country-select {
     margin-top: 1rem;
     margin-right: 1.5rem;
 }
+
+/* trending movies horizontal scroller */
+.trending-movies-scroller {
+    width: 95%;
+    height: auto;
+    overflow: auto;
+    overscroll-behavior-inline: contain;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    scrollbar-width: none;
+}
+
+.trending-movies-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.media-element {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 10%;
+    gap: 1.25rem;
+}
+
+.media-container {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.25s;
+
+}
+
+.media-container:hover {
+    transform: scale(1.05);
+}
+
+.media-container > img {
+    border-radius: 0.5rem;
+    width: 11.25rem;
+}
+
+
