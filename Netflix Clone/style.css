@@ -149,7 +149,7 @@ header div {
 /* second section */
 .second-section {
     position: relative;
-    height: 100vh;
+    height: auto;
     width: auto;
     padding-inline: 9.25rem;
     padding-top: 4rem;
@@ -215,12 +215,12 @@ header div {
 
 /* trending movies horizontal scroller */
 .trending-movies-scroller {
-    width: 95%;
+    width: 98%;
     height: auto;
     overflow: auto;
     overscroll-behavior-inline: contain;
     padding-block: 2rem;
-    padding-inline: 1.5rem;
+    padding-inline: 1.3rem;
     scrollbar-width: none;
 }
 
@@ -232,18 +232,18 @@ header div {
     display: inline-grid;
     grid-auto-flow: column;
     grid-auto-columns: 10%;
-    gap: 1.25rem;
+    gap: 1.5rem;
 }
 
 .media-container {
     display: inline-block;
     cursor: pointer;
     transition: transform 0.25s;
-
+    position: relative;
 }
 
 .media-container:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .media-container > img {
@@ -251,4 +251,66 @@ header div {
     width: 11.25rem;
 }
 
+.media-container p {
+    color: black;
+    font-size: 7rem;
+    font-weight: 700;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: -1.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--text-color);
+    text-shadow: 0 0 2rem black;
+}
 
+/* third section */
+.third-section {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-inline: 9.25rem;
+    padding-block: 2rem;
+}
+
+.third-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card-container {
+    background: linear-gradient(
+            149deg,
+            #192247 0%,
+            #210e17 96.86%
+    );
+    padding: 0.5rem 1.5rem 6rem 1.5rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.card-h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-paragraph {
+    font-size: 1rem;
+    color: var(--text-secondary-color);
+    font-weight: 400;
+}
+
+#television-core-small {
+    padding: 1rem;
+}
+
+.card-svg {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
