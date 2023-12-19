@@ -124,7 +124,7 @@ header div {
     gap: 0.5rem;
 }
 
-#email {
+.email {
     padding: 0.8rem;
     font-size: 1rem;
     background-color: rgba(32, 30, 30, 0.5);
@@ -313,4 +313,57 @@ header div {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
+}
+
+
+/* forth section */
+.forth-section {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-inline: 9.25rem;
+    padding-block: 2rem;
+}
+
+.forth-section h2 {
+    margin-bottom: 1rem;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem 20% 0 0;
+    padding: 1.4rem;
+    background-color: rgb(45, 45, 45);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.faq-container:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.expand-svg {
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+
+.question h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* fifth section */
+.fifth-section {
+    padding-block: 1rem 10rem;
+    padding-inline: 9.25rem;
+}
+
+.fifth-section .promo-content {
+    max-width: 100%;
+    margin-right: 20%;
 }
