@@ -1,5 +1,5 @@
 .first-section {
-    height: 102vh;
+    height: 105vh;
     background-color: rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(63deg, rgba(0, 0, 0, 0.9000) 26.00%, rgba(0, 0, 0, 0.8965) 30.83%, rgba(0, 0, 0, 0.8861) 35.67%, rgba(0, 0, 0, 0.8688) 40.50%, rgba(0, 0, 0, 0.8444) 45.33%, rgba(0, 0, 0, 0.8132) 50.17%, rgba(0, 0, 0, 0.7750) 55.00%, rgba(0, 0, 0, 0.7368) 59.83%, rgba(0, 0, 0, 0.7056) 64.67%, rgba(0, 0, 0, 0.6812) 69.50%, rgba(0, 0, 0, 0.6639) 74.33%, rgba(0, 0, 0, 0.6535) 79.17%, rgba(0, 0, 0, 0.6500) 84.00%), url(https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     width: 100%;
@@ -147,23 +147,61 @@ header div {
     padding: 0.8rem;
 }
 
+/* curve */
+.curve {
+    position: relative;
+    height: 6.25rem;
+    z-index: 5;
+    overflow-x: hidden;
+    margin-top: -1.5rem;
+}
+
+.curve-container {
+    position: absolute;
+    top: 0;
+    width: 150%;
+    left: -25%;
+    height: 100%;
+    display: flex;
+    border: solid 0.25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%,
+    rgba(64, 97, 231, 0.4) 80%,
+    rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+}
+
+.curve-container:before {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: -0.25rem;
+    z-index: -1;
+    background: linear-gradient(
+            to right,
+            rgba(33, 13, 22, 1) 16%,
+            rgba(184, 40, 105, 1),
+            rgba(229, 9, 20, 1),
+            rgba(184, 40, 105, 1),
+            rgba(33, 13, 22, 1) 84%
+    );
+}
+
 /* second section */
 .second-section {
     position: relative;
     height: auto;
     width: auto;
     padding-inline: 9.25rem;
-    padding-top: 4rem;
+    /*padding-top: 4rem;*/
 }
 
-.first-section:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.5rem;
-    background-color: var(--horizontal-ruler-color);
-    bottom: 0;
-}
 
 #trending-region, #trending-movies {
     appearance: none;
