@@ -1,4 +1,5 @@
 :root {
+    /* root colors */
     --primary-color: rgb(229, 9, 20);
     --btn-color: rgb(229, 9, 20);
     --btn-hover-color: rgb(176, 3, 12);
@@ -7,5 +8,13 @@
     --text-secondary-color: rgb(255, 255, 255, 0.7);
     --white: rgb(255, 255, 255);
     --border-color: rgba(128, 128, 128, 0.7);
-    --horizontal-ruler-color: rgb(35,35,35);
+    --horizontal-ruler-color: rgb(35, 35, 35);
+
+    /* root units */
+    --primary-inline-padding-screen-1: 22.125rem;
+    --primary-inline-padding-screen-2: 9.25rem;
+    --primary-inline-padding-screen-3: 5rem;
+    --primary-inline-padding-screen-4: 2rem;
+    --primary-inline-padding-screen-5: 1.5rem;
+
 }

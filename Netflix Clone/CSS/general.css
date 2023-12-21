@@ -27,9 +27,8 @@ body {
     transition-timing-function: ease-out;
 }
 
+/* heading texts styles */
 h1 {
-    font-size: 3.5rem;
-    font-weight: 900;
     line-height: 150%;
     color: var(--text-color);
 }
@@ -56,6 +55,7 @@ h5 {
     line-height: 1.5rem;
 }
 
+/* select menu */
 select option {
     color: black;
 }

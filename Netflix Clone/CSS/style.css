@@ -1,11 +1,13 @@
 .first-section {
-    height: 105vh;
+    height: min(105vh, 1080px);
     background-color: rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(63deg, rgba(0, 0, 0, 0.9000) 26.00%, rgba(0, 0, 0, 0.8965) 30.83%, rgba(0, 0, 0, 0.8861) 35.67%, rgba(0, 0, 0, 0.8688) 40.50%, rgba(0, 0, 0, 0.8444) 45.33%, rgba(0, 0, 0, 0.8132) 50.17%, rgba(0, 0, 0, 0.7750) 55.00%, rgba(0, 0, 0, 0.7368) 59.83%, rgba(0, 0, 0, 0.7056) 64.67%, rgba(0, 0, 0, 0.6812) 69.50%, rgba(0, 0, 0, 0.6639) 74.33%, rgba(0, 0, 0, 0.6535) 79.17%, rgba(0, 0, 0, 0.6500) 84.00%), url(https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/6b2842d1-2339-4f08-84f6-148e9fcbe01b/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     width: 100%;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 120rem;
+    margin: auto;
 }
 
 header {
@@ -97,9 +99,7 @@ header div {
 }
 
 .promo-wrapper {
-    padding-left: 9rem;
-    position: absolute;
-    bottom: 25%;
+    padding-top: 12%;
 }
 
 .promo-content {
@@ -154,13 +154,13 @@ header div {
     z-index: 5;
     overflow-x: hidden;
     margin-top: -2rem;
+    max-width: 120rem;
+    margin-inline: auto;
 }
 
 .curve-container {
     position: absolute;
     top: 0;
-    width: 150%;
-    left: -25%;
     height: 100%;
     display: flex;
     border: solid 0.25rem transparent;
@@ -198,8 +198,8 @@ header div {
     position: relative;
     height: auto;
     width: auto;
-    padding-inline: 9.25rem;
-    /*padding-top: 4rem;*/
+    max-width: 120rem;
+    margin: auto;
 }
 
 
@@ -231,14 +231,14 @@ header div {
 .country-select-caret-down-svg {
     position: absolute;
     top: 0.6rem;
-    left: 5rem;
+    right: 1rem;
     pointer-events: none;
 }
 
 .movie-select-caret-down-svg {
     position: absolute;
     top: 0.6rem;
-    left: 7rem;
+    right: 1rem;
     pointer-events: none;
 }
 
@@ -282,7 +282,6 @@ header div {
 
 .media-container > img {
     border-radius: 0.5rem;
-    width: 11.25rem;
 }
 
 .media-container p {
@@ -303,8 +302,9 @@ header div {
     position: relative;
     height: auto;
     width: auto;
-    padding-inline: 9.25rem;
     padding-block: 2rem;
+    max-width: 120rem;
+    margin: auto;
 }
 
 .third-section h2 {
@@ -355,8 +355,9 @@ header div {
     position: relative;
     height: auto;
     width: auto;
-    padding-inline: 9.25rem;
     padding-block: 2rem;
+    max-width: 120rem;
+    margin: auto;
 }
 
 .forth-section h2 {
@@ -394,7 +395,8 @@ header div {
 /* fifth section */
 .fifth-section {
     padding-block: 1rem;
-    padding-inline: 9.25rem;
+    max-width: 120rem;
+    margin: auto;
 }
 
 .fifth-section .promo-content {
@@ -403,9 +405,9 @@ header div {
 }
 
 .fifth-section .email-form-action {
-    padding-top: 16px;
+    padding-top: 1rem;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 13rem;
     gap: 0.5rem;
 }
 
@@ -414,7 +416,13 @@ header div {
     position: relative;
     height: auto;
     width: auto;
-    padding: 2rem 11.75rem 6rem 11.75rem;
+    padding-block: 2rem 6rem;
+    max-width: 120rem;
+    margin: auto;
+}
+
+.footer {
+    padding-inline: 2rem;
 }
 
 .footer h5 {
