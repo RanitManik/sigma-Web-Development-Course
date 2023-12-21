@@ -165,11 +165,6 @@ header div {
     bottom: 0;
 }
 
-/* trending section */
-.trending-option {
-
-}
-
 #trending-region, #trending-movies {
     appearance: none;
     background-color: transparent;
