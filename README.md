@@ -10,7 +10,7 @@ Welcome to the Sigma Web Development Course, a magical journey through the realm
 
 ## Exercises
 
-Certainly! Here's the updated list of exercises in table format:
+Here's the list of exercises in table format:
 
 | #  | Challenges                                                                             | Live Demo                                                                                                                              |
 |:--:|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
