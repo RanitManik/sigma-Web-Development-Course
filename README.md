@@ -25,7 +25,7 @@ Here's the list of exercises in table format:
 
 
 ## Resources
-Certainly! Here's an organized list of web development resources to enhance your skills:
+Here's an organized list of web development resources to enhance your skills:
 
 - [Web Development Playlist](https://youtube.com/playlist?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH)
 - [HTML CSS Docs](https://ranitmanik.github.io/HTML-CSS-Docs/Writerside/website-files/getting-started.html)
