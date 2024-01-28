@@ -1,10 +1,9 @@
 
 <div align="center">
   <h1>Sigma Web Development Course</h1>
-  <img src="https://img.youtube.com/vi/tVzUXW6siu0/maxresdefault.jpg" alt="Course Thumbnail">
+  <img src="https://img.youtube.com/vi/tVzUXW6siu0/maxresdefault.jpg" alt="Course Thumbnail">  
 </div>
-
----
+</br>
 
 Welcome to the Sigma Web Development Course, a magical journey through the realms of web development with CodeWithHarry! This repository serves as a treasure trove of assignments, projects, and enchanting code creations from the Sigma Web Development Course. Join me in exploring the fascinating world of web development, guided by the wizardry of CodeWithHarry.
 
@@ -41,7 +40,7 @@ Feel free to explore these resources to further develop your skills in web devel
 
 ## Getting Started
 
-To dive into the wonders of this repository, follow these steps:
+_To dive into the wonders of this repository, follow these steps :_
 
 1. **Clone** the repository:
 
@@ -73,22 +72,16 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Connect with me through various portals:
+_Connect with me through various portals :_
 
-- [Email](mailto:ranitmanik.dev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/ranit-manik/)
-- [GitHub](https://github.com/RanitManik)
-- [Instagram](https://www.instagram.com/ranit_manik_/)
-- [Facebook](https://www.facebook.com/RanitKumarManik/)
-- [Twitter](https://twitter.com/RANIT_MANIK)
-- [Codepen](https://codepen.io/RANIT-MANIK)
-- [Replit](https://replit.com/@ranit-manik)
+- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /> Email](mailto:ranitmanik.dev@gmail.com)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="20" /> Twitter](https://twitter.com/RANIT_MANIK)
 
 ## Acknowledgments
 
 Gratitude to the web development community, CodeWithHarry, and various resources that have shaped my web development journey. Special thanks to Harish sir (CodeWithHarry) for his exceptional course. Thanks to online tutorials, forums, and open-source projects for inspiration and education.
 
 Join me on this magical adventure through the Sigma Web Development Course. Together, let's weave wonders through code!
-
-
-[Jump to the top](#readme-top)
